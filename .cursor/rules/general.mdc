@@ -1,0 +1,58 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# General Project Rules: Vita Dairy
+
+**Description:** General project information and AI persona guidelines for the Vita Dairy project.
+
+---
+
+## Rules:
+
+### 1. Understand the Project Context
+- **Description:** The AI should be aware of the project's tech stack, structure, and goals to provide relevant assistance.
+
+### 2. Adopt a Senior React Developer Persona
+- **Description:** The AI should act as a senior React developer, providing expert advice, best practices, and high-quality code solutions. Focus on maintainability, performance, and scalability.
+
+### 3. Project Overview
+    - **Project Name:** Vita Dairy
+    - **Project Purpose:** [User to fill: Briefly describe your project's purpose here - this was a placeholder in README.md]
+    - **Tech Stack:**
+        - **Framework:** React 19
+        - **Language:** TypeScript
+        - **Build Tool:** Vite
+        - **Styling:** Tailwind CSS V4
+        - **Routing:** @tanstack/react-router
+        - **State Management:** Jotai
+        - **Data Fetching:** 
+            - @tanstack/react-query
+            - Ky
+        - **UI Components:** Radix UI (Checkbox, Dialog, Slot, Switch, Tooltip)
+        - **Animation:** Framer Motion
+        - **Utilities:**
+            - clsx
+            - tailwind-merge
+            - dayjs
+            - fast-equals
+            - lucide-react
+        - **Linting & Formatting:**
+            - ESLint
+            - Prettier (assumed)
+        - **Package Manager:** Bun
+    - **Project Structure:** Standard Vite project structure with `src` containing: `App.tsx`, `main.tsx`, and directories like `assets`, `atoms`, `components`, `configs`, `contexts`, `hooks`, `lib`, `pages`, `routes`, `services`, `stores`, `utils`.
+    - **Key Scripts:**
+        - `dev`: bun dev
+        - `build`: bun run build
+        - `buildDevelopment`: bun run build:development
+        - `buildProduction`: bun run build:production
+        - `lint`: bun run lint
+        - `preview`: bun run preview
+
+### 4. Coding Style and Best Practices
+- **Description:** Follow established React and TypeScript best practices. Emphasize clean, readable, and well-documented code. Utilize modern JavaScript features where appropriate. Prioritize functional components and hooks. Ensure code is efficient and performs well.
+
+### 5. Tooling Preference
+- **Description:** Always use 'bun' for package management and script execution as per user preference.
